@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+    <title>Controle KM - Veículos</title>
+
+  </head>
+  <body>
+  	
+	<header><!-- Início do cabeçalho-->
+		<div id="cabecalho" class="row bg-info text-white">
+			<div class="p-2 col-12 ml-auto mr-auto">
+				<h4 class="text-uppercase  text-center text-monospace">Controle para utilização de veículo</h4>
+			</div>
+		</div>
+	</header><!-- Fim do cabeçalho-->
+
+    <div class="container pt-3">
+    	<form class="pb-3"><!-- Início do formulário-->
+    		<div class="form-group">
+				<label for="usuario">Usuário:</label>
+				<input class="form-control border-info" type="text" id="usuario" name="usuario" placeholder="Nome do usuário">
+			</div>
+
+			<div class="form-group">
+				<label for="data">Data:</label>
+				<input class="form-control border-info" type="date" id="data" name="data">
+			</div>
+			<div class="form-group">
+				<label for="motivo">Motivo:</label>
+				<textarea class="form-control border-info" id="motivo" name="motivo" placeholder="Motivo de utilização do veículo" rows="1"></textarea>
+				
+			</div>
+			<div class="form-group">
+				<label for="quilometragem_saida">KM de Saída:</label>
+				<input class="form-control border-info" type="number" id="quilometragem_saida" name="quilometragem_saida" placeholder="Quilometragem de saída">
+			</div>
+
+			<div class="form-group">
+				<label for="quilometragem_chegada">KM de Chegada:</label>
+				<input class="form-control border-info" type="number" id="quilometragem_chegada" name="quilometragem_chegada" placeholder="Quilometragem de chegada">
+			</div>
+
+			<div class="row pt-3">
+				<div class=" mr-auto ml-auto">
+					<input id="btn-registrar" type="submit" class="btn btn-outline-info btn-lg text-uppercase pl-5 pr-5 text-monospace" value="Registrar">
+				</div>
+			</div>
+
+		</form><!-- Fim do formulário-->
+
+		<hr class="text-info bg-info">
+    	
+		<div class="pt-3">
+			<h1 class="text-uppercase text-center text-info text-monospace">Registros</h1><!-- Tabela para exibir os registros -->
+			<div class="row pt-3">
+				<table class="table table-sm-responsive col-12">
+					<thead class="table-dark border-dark t-0 m-0 ">
+					<tr>
+						<th scope="col">Usuário</th>
+						<th scope="col">Data</th>
+						<th scope="col">Motivo</th>
+						<th scope="col">KM Saída</th>
+						<th scope="col">KM Chegada</th>
+					</tr>
+					<script src="script\script.js"></script>
+					</thead>
+				</table>
+			</div>
+		</div>
+	</div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+

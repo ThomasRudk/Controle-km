@@ -1,0 +1,26 @@
+body {
+	background-image: url("imagens/background.jpg");
+}
+hr {
+ 	box-shadow: 1px 1px 5px 1px #8D8D8D;
+ }
+
+#cabecalho {
+ 	box-shadow: 1px 1px 10px 2px #535353;
+ }
+input:hover, textarea:hover {
+	box-shadow: 1px 1px 2px 1px #64CEFF;
+}
+#btn-registrar {
+	padding: 0;	
+}
+
+#btn-registrar:hover {
+	box-shadow: 1px 1px 20px 5px #64CEFF;
+	border-radius: 5px;
+
+ }
+
+#btn-registrar:active {
+	border-radius: 10px;
+}
